@@ -25,7 +25,7 @@ The raw data for this project contains a time series data of a single variable, 
 
 A quick visualization by Matplotlib for the electricity generation throughout the years looks like below:
 
-![Image of the raw data](Graphs/InitialGraph.png)
+![Image of the raw data](InitialGraph.png)
 
 A periodicity can be observed from the data.
 
@@ -48,21 +48,21 @@ Value = Base Level + Trend + Seasonality + Error
 Multiplicative Time Series:
 Value = Base Level x Trend x Seasonality x Error
 
-![Image of the raw data](Graphs/Multiplicative_decompose.png)
+![Image of the raw data](Multiplicative_decompose.png)
 
-![Image of the raw data](Graphs/Additive_decompose.png)
+![Image of the raw data](Additive_decompose.png)
 
 ### SARIMAX
 
 SARIMAX(Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors) is an updated version of the ARIMA model. ARIMA includes an autoregressive integrated moving average, while SARIMAX includes seasonal effects and eXogenous factors with the autoregressive and moving average component in the model. Therefore, we can say SARIMAX is a seasonal equivalent model like SARIMA and Auto ARIMA.
 
-![Image of the prediction](Graphs/PredictionTable.PNG)
+![Image of the prediction](PredictionTable.PNG)
 
-![Image of the prediction](Graphs/PredictedOnlyGraph.png)
+![Image of the prediction](PredictedOnlyGraph.png)
 
 ## Conclusions
 
-![Image of the prediction](Graphs/PredictedGraph.png)
+![Image of the prediction](PredictedGraph.png)
 
 We can see that the model has predicted the values without compromising with the seasonality effects and exogenous factors. And the trend line is almost going as usual as it was going in past years.
 
